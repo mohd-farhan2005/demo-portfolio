@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Farhan | Full Stack Web Developer – Laravel, PHP &amp; WordPress</title>
+  <meta name="description" content="Portfolio of Muhammad Farhan, a Full Stack Web Developer from Wayanad, Kerala, building scalable web applications with Laravel, PHP, MySQL, WordPress and modern frontend technologies.">
+  <meta name="author" content="Muhammad Farhan">
+  <meta name="theme-color" content="#0B0F19">
+  <meta property="og:title" content="Muhammad Farhan | Full Stack Web Developer">
+  <meta property="og:description" content="Laravel, PHP, WordPress and modern frontend development.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5, Bootstrap Icons, Devicon (technology logos as an icon font) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader" aria-hidden="true"><span class="loader-logo">FARHAN<span>.</span></span><div class="loader-bar"></div></div>
+
+  <!-- ============ 01. NAVIGATION ============ -->
+  <header>
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand logo" href="#home">FARHAN<span>.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <a href="#contact" class="btn btn-accent btn-sm-nav">Let's Talk <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ 02. HERO ============ -->
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span><span class="blob blob-2"></span><span class="grid-pattern"></span>
+      </div>
+      <div class="container position-relative">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7 hero-copy">
+            <span class="eyebrow reveal"><span class="dot"></span> HELLO, I'M</span>
+            <h1 class="hero-title reveal">Muhammad <span class="text-gradient">Farhan</span></h1>
+            <h2 class="hero-headline reveal">Full Stack Developer crafting modern digital experiences.</h2>
+            <p class="hero-text reveal">I build scalable web applications, dynamic websites, and user-focused digital solutions using Laravel, PHP, WordPress, and modern frontend technologies.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4 reveal">
+              <a href="#projects" class="btn btn-accent btn-lg">View My Work <i class="bi bi-arrow-right"></i></a>
+              <a href="assets/resume/Muhammad-Farhan-Resume.pdf" class="btn btn-outline-light-custom btn-lg" download>Download Resume <i class="bi bi-download"></i></a>
+            </div>
+            <ul class="list-unstyled d-flex flex-wrap gap-2 mt-5 mb-0 reveal" aria-label="Core technologies">
+              <li class="tech-badge"><i class="devicon-laravel-plain colored"></i> Laravel</li>
+              <li class="tech-badge"><i class="devicon-php-plain colored"></i> PHP</li>
+              <li class="tech-badge"><i class="devicon-mysql-plain colored"></i> MySQL</li>
+              <li class="tech-badge"><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+              <li class="tech-badge"><i class="devicon-wordpress-plain colored"></i> WordPress</li>
+            </ul>
+          </div>
+
+          <!-- Developer-themed visual (replace with your portrait: assets/images/farhan.jpg) -->
+          <div class="col-lg-5 reveal">
+            <div class="hero-visual">
+              <div class="code-card">
+                <div class="code-top"><span></span><span></span><span></span><small>farhan.php</small></div>
+<pre><code><span class="c-k">class</span> <span class="c-c">Developer</span> {
+  <span class="c-k">public</span> <span class="c-v">$name</span>  = <span class="c-s">'Muhammad Farhan'</span>;
+  <span class="c-k">public</span> <span class="c-v">$role</span>  = <span class="c-s">'Full Stack Developer'</span>;
+  <span class="c-k">public</span> <span class="c-v">$stack</span> = [
+    <span class="c-s">'Laravel'</span>, <span class="c-s">'PHP'</span>,
+    <span class="c-s">'MySQL'</span>, <span class="c-s">'WordPress'</span>,
+    <span class="c-s">'JavaScript'</span>
+  ];
+
+  <span class="c-k">public function</span> <span class="c-f">build</span>() {
+    <span class="c-k">return</span> <span class="c-s">'clean, scalable code'</span>;
+  }
+}</code></pre>
+              </div>
+              <div class="float-chip chip-1"><i class="bi bi-braces"></i> Clean Code</div>
+              <div class="float-chip chip-2"><i class="bi bi-phone"></i> Responsive</div>
+              <div class="float-chip chip-3"><i class="bi bi-database"></i> MySQL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About"><i class="bi bi-chevron-double-down"></i></a>
+    </section>
+
+    <!-- ============ 03. ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5 reveal">
+            <div class="about-photo">
+              <!-- Replace this placeholder with a real photo: <img src="assets/images/farhan.jpg" alt="Muhammad Farhan" loading="lazy"> -->
+              <svg viewBox="0 0 400 480" role="img" aria-label="Portrait placeholder" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+                <rect width="400" height="480" fill="#151D2B"/>
+                <circle cx="200" cy="190" r="78" fill="url(#g1)" opacity=".9"/>
+                <path d="M60 480c0-95 62-160 140-160s140 65 140 160z" fill="url(#g1)" opacity=".6"/>
+                <text x="200" y="455" text-anchor="middle" font-family="Space Grotesk,sans-serif" font-size="16" fill="#94A3B8">Add your photo here</text>
+              </svg>
+              <div class="about-badge"><i class="bi bi-code-slash"></i><span>Full Stack<br>Developer</span></div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <span class="section-tag reveal">About Me</span>
+            <h2 class="section-title reveal">Building Digital Experiences with Code &amp; Creativity.</h2>
+            <p class="lead-muted reveal">I am a passionate Full Stack Developer with hands-on experience in building robust web applications using Laravel and WordPress. I enjoy transforming complex problems into elegant, user-friendly solutions through clean, maintainable code. My expertise spans backend development, frontend technologies, database management, and creative design, allowing me to build functional and visually appealing digital experiences.</p>
+            <ul class="check-list row g-3 mt-3 reveal">
+              <li class="col-sm-6"><i class="bi bi-check2-circle"></i> Full Stack Web Development</li>
+              <li class="col-sm-6"><i class="bi bi-check2-circle"></i> Laravel Application Development</li>
+              <li class="col-sm-6"><i class="bi bi-check2-circle"></i> Custom WordPress Theme Development</li>
+              <li class="col-sm-6"><i class="bi bi-check2-circle"></i> Responsive Frontend Development</li>
+              <li class="col-sm-6"><i class="bi bi-check2-circle"></i> Database Management</li>
+              <li class="col-sm-6"><i class="bi bi-check2-circle"></i> Creative UI and Visual Design</li>
+            </ul>
+            <ul class="list-unstyled mt-4 mb-0 info-grid reveal">
+              <li><i class="bi bi-geo-alt"></i> Wayanad, Kerala, India</li>
+              <li><i class="bi bi-envelope"></i> <a href="mailto:mohdfarhan170820054@gmail.com">mohdfarhan170820054@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04. STATISTICS ============ -->
+    <section id="stats" class="stats-section">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <!--
+            EDIT HERE: set data-count to your verified figures.
+            - Years of Experience is calculated automatically from data-since (training started Aug 2024, per resume).
+            - Technologies Worked With is counted automatically from the Skills section.
+            - Projects Completed / Students Mentored are placeholders (0 shows as "—") until you add real numbers.
+          -->
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card"><div class="stat-num"><span class="counter" data-since="2024-08">0</span><sup>+</sup></div><p>Years of Experience</p></div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card"><div class="stat-num"><span class="counter" data-count="0" id="statProjects">0</span><sup>+</sup></div><p>Projects Completed</p></div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card"><div class="stat-num"><span class="counter" data-auto="tech">0</span><sup>+</sup></div><p>Technologies Worked With</p></div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card"><div class="stat-num"><span class="counter" data-count="0" id="statStudents">0</span><sup>+</sup></div><p>Students Mentored</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05. SERVICES ============ -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag reveal">Services</span>
+          <h2 class="section-title reveal">What I Can Do For You</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><div class="icon-box"><i class="bi bi-layers"></i></div><h3>Full Stack Development</h3><p>Developing complete web applications with frontend and backend functionality.</p><span class="num">01</span></article></div>
+          <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><div class="icon-box"><i class="devicon-laravel-plain"></i></div><h3>Laravel Development</h3><p>Building scalable applications using Laravel, PHP, and MySQL.</p><span class="num">02</span></article></div>
+          <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><div class="icon-box"><i class="bi bi-wordpress"></i></div><h3>WordPress Development</h3><p>Creating custom WordPress websites and themes.</p><span class="num">03</span></article></div>
+          <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><div class="icon-box"><i class="bi bi-window-desktop"></i></div><h3>Frontend Development</h3><p>Developing responsive and interactive interfaces using HTML, CSS, JavaScript, and Bootstrap.</p><span class="num">04</span></article></div>
+          <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><div class="icon-box"><i class="bi bi-database"></i></div><h3>Database Management</h3><p>Designing and managing relational databases using MySQL.</p><span class="num">05</span></article></div>
+          <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><div class="icon-box"><i class="bi bi-mortarboard"></i></div><h3>Web Design &amp; Development Training</h3><p>Teaching modern web technologies and practical development skills.</p><span class="num">06</span></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06. EXPERIENCE ============ -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag reveal">Experience</span>
+          <h2 class="section-title reveal">Professional Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+                <div><h3>Laravel Developer</h3><p class="company"><i class="bi bi-building"></i> Ecraftz</p></div>
+                <span class="date-pill">January 2025 – Present</span>
+              </div>
+              <ul>
+                <li>Develop scalable web applications using Laravel and MySQL.</li>
+                <li>Build custom WordPress themes from scratch.</li>
+                <li>Create tailored solutions using Core PHP.</li>
+                <li>Develop responsive frontend interfaces using HTML, CSS, JavaScript, and jQuery.</li>
+                <li>Participate in database design and complete application development.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+                <div><h3>Web Design Trainer</h3><p class="company"><i class="bi bi-building"></i> e-Academy</p></div>
+                <span class="date-pill">August 2024 – Present</span>
+              </div>
+              <ul>
+                <li>Mentor aspiring web designers.</li>
+                <li>Teach HTML, CSS, and JavaScript.</li>
+                <li>Develop learning materials and structured curriculum.</li>
+                <li>Guide students through practical web development projects.</li>
+                <li>Teach responsive design principles and industry best practices.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ 07. EDUCATION ============ -->
+        <div id="education" class="text-center mt-5 pt-4 mb-5">
+          <span class="section-tag reveal">Education</span>
+          <h2 class="section-title reveal">Academic Background</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot alt"></span>
+            <div class="timeline-card">
+              <h3>Diploma in Multimedia Design</h3>
+              <p class="company mb-0"><i class="bi bi-mortarboard"></i> Vismayam College of Arts and Media</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-dot alt"></span>
+            <div class="timeline-card">
+              <h3>Higher Secondary Education (+2)</h3>
+              <p class="company mb-0"><i class="bi bi-mortarboard"></i> SJHSS Kallody</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08. PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag reveal">Projects</span>
+          <h2 class="section-title reveal">Selected Works &amp; Recent Projects.</h2>
+          <p class="text-muted-c reveal">Placeholder cards – replace the titles, descriptions, thumbnails and links with your real projects.</p>
+        </div>
+        <div class="row g-4">
+          <!-- To use a real thumbnail, replace the .thumb-art div with: <img src="assets/images/project-1.jpg" alt="Project name" loading="lazy"> -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-thumb">
+                <div class="thumb-art t1"><i class="bi bi-window-stack"></i></div>
+                <div class="project-overlay"><a href="#" class="icon-btn" aria-label="Live preview"><i class="bi bi-box-arrow-up-right"></i></a><a href="#" class="icon-btn" aria-label="GitHub repository"><i class="bi bi-github"></i></a></div>
+              </div>
+              <div class="project-body">
+                <h3>Project Name One</h3>
+                <p>Short description of this project goes here. Explain the problem it solves and your role.</p>
+                <div class="tags"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-thumb">
+                <div class="thumb-art t2"><i class="bi bi-wordpress"></i></div>
+                <div class="project-overlay"><a href="#" class="icon-btn" aria-label="Live preview"><i class="bi bi-box-arrow-up-right"></i></a><a href="#" class="icon-btn" aria-label="GitHub repository"><i class="bi bi-github"></i></a></div>
+              </div>
+              <div class="project-body">
+                <h3>Project Name Two</h3>
+                <p>Short description of this project goes here. Explain the problem it solves and your role.</p>
+                <div class="tags"><span>WordPress</span><span>PHP</span><span>CSS3</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-thumb">
+                <div class="thumb-art t3"><i class="bi bi-bar-chart-line"></i></div>
+                <div class="project-overlay"><a href="#" class="icon-btn" aria-label="Live preview"><i class="bi bi-box-arrow-up-right"></i></a><a href="#" class="icon-btn" aria-label="GitHub repository"><i class="bi bi-github"></i></a></div>
+              </div>
+              <div class="project-body">
+                <h3>Project Name Three</h3>
+                <p>Short description of this project goes here. Explain the problem it solves and your role.</p>
+                <div class="tags"><span>Core PHP</span><span>JavaScript</span><span>MySQL</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-thumb">
+                <div class="thumb-art t4"><i class="bi bi-phone"></i></div>
+                <div class="project-overlay"><a href="#" class="icon-btn" aria-label="Live preview"><i class="bi bi-box-arrow-up-right"></i></a><a href="#" class="icon-btn" aria-label="GitHub repository"><i class="bi bi-github"></i></a></div>
+              </div>
+              <div class="project-body">
+                <h3>Project Name Four</h3>
+                <p>Short description of this project goes here. Explain the problem it solves and your role.</p>
+                <div class="tags"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-thumb">
+                <div class="thumb-art t5"><i class="bi bi-cart3"></i></div>
+                <div class="project-overlay"><a href="#" class="icon-btn" aria-label="Live preview"><i class="bi bi-box-arrow-up-right"></i></a><a href="#" class="icon-btn" aria-label="GitHub repository"><i class="bi bi-github"></i></a></div>
+              </div>
+              <div class="project-body">
+                <h3>Project Name Five</h3>
+                <p>Short description of this project goes here. Explain the problem it solves and your role.</p>
+                <div class="tags"><span>Laravel</span><span>jQuery</span><span>MySQL</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-thumb">
+                <div class="thumb-art t6"><i class="bi bi-palette"></i></div>
+                <div class="project-overlay"><a href="#" class="icon-btn" aria-label="Live preview"><i class="bi bi-box-arrow-up-right"></i></a><a href="#" class="icon-btn" aria-label="GitHub repository"><i class="bi bi-github"></i></a></div>
+              </div>
+              <div class="project-body">
+                <h3>Project Name Six</h3>
+                <p>Short description of this project goes here. Explain the problem it solves and your role.</p>
+                <div class="tags"><span>WordPress</span><span>Custom Theme</span><span>JavaScript</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09. SKILLS ============ -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag reveal">Technical Skills</span>
+          <h2 class="section-title reveal">Tools &amp; Technologies I Work With</h2>
+        </div>
+        <div class="row g-4" id="skillGroups">
+          <div class="col-md-6 col-lg-4 reveal"><div class="skill-card"><h3><i class="bi bi-boxes"></i> Frameworks &amp; CMS</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-laravel-plain colored"></i> Laravel</li>
+              <li><i class="devicon-wordpress-plain colored"></i> WordPress</li>
+              <li><i class="bi bi-palette2 ico-accent"></i> WordPress Theme Development</li>
+            </ul></div></div>
+          <div class="col-md-6 col-lg-4 reveal"><div class="skill-card"><h3><i class="bi bi-terminal"></i> Programming Languages</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-php-plain colored"></i> PHP</li>
+              <li><i class="devicon-php-plain colored"></i> Core PHP</li>
+              <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+              <li><i class="devicon-jquery-plain colored"></i> jQuery</li>
+            </ul></div></div>
+          <div class="col-md-6 col-lg-4 reveal"><div class="skill-card"><h3><i class="bi bi-window"></i> Frontend Technologies</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-html5-plain colored"></i> HTML5</li>
+              <li><i class="devicon-css3-plain colored"></i> CSS3</li>
+              <li><i class="bi bi-phone-landscape ico-accent"></i> Responsive Web Design</li>
+              <li><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
+            </ul></div></div>
+          <div class="col-md-6 col-lg-4 reveal"><div class="skill-card"><h3><i class="bi bi-database"></i> Database</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+            </ul></div></div>
+          <div class="col-md-6 col-lg-4 reveal"><div class="skill-card"><h3><i class="bi bi-brush"></i> Design &amp; Multimedia</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-illustrator-plain colored"></i> Adobe Illustrator</li>
+              <li><i class="devicon-photoshop-plain colored"></i> Adobe Photoshop</li>
+              <li><i class="devicon-premierepro-plain colored"></i> Adobe Premiere Pro</li>
+              <li><i class="devicon-blender-original colored"></i> Blender</li>
+              <li><i class="bi bi-vector-pen ico-accent"></i> CorelDRAW</li>
+            </ul></div></div>
+          <div class="col-md-6 col-lg-4 reveal"><div class="skill-card"><h3><i class="bi bi-tools"></i> Tools &amp; Version Control</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-git-plain colored"></i> Git</li>
+              <li><i class="bi bi-microsoft ico-accent"></i> MS Office</li>
+            </ul></div></div>
+        </div>
+
+        <!-- ============ 10. ADDITIONAL STRENGTHS ============ -->
+        <div id="strengths" class="text-center mt-5 pt-4 mb-4">
+          <span class="section-tag reveal">Additional Strengths</span>
+          <h2 class="section-title reveal">Beyond the Code</h2>
+        </div>
+        <div class="row g-3 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-puzzle"></i>Problem Solving</div></div>
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-lightbulb"></i>Critical Thinking</div></div>
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-clock-history"></i>Time Management</div></div>
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-people"></i>Team Collaboration</div></div>
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-stars"></i>Creativity</div></div>
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-arrows-angle-expand"></i>Adaptability</div></div>
+          <div class="col-6 col-md-4 col-lg-3 reveal"><div class="soft-card"><i class="bi bi-book"></i>Continuous Learning</div></div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-7 reveal">
+            <div class="lang-card">
+              <h3><i class="bi bi-translate"></i> Languages</h3>
+              <div class="lang-row"><span>Malayalam</span><span class="date-pill">Native</span></div>
+              <div class="lang-row"><span>English</span><span class="date-pill">Professional Working Proficiency</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 11. CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag reveal">Contact</span>
+          <h2 class="section-title reveal">Have a Project in Mind? Let's Talk.</h2>
+          <p class="text-muted-c mx-auto reveal" style="max-width:640px">I'm always interested in discussing new opportunities, creative ideas, and exciting development projects. Let's build something meaningful together.</p>
+        </div>
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5 reveal">
+            <ul class="list-unstyled contact-list">
+              <li><span class="icon-box sm"><i class="bi bi-telephone"></i></span><div><small>Phone</small><a href="tel:+916282913275">+91 62829 13275</a></div></li>
+              <li><span class="icon-box sm"><i class="bi bi-envelope"></i></span><div><small>Email</small><a href="mailto:mohdfarhan170820054@gmail.com">mohdfarhan170820054@gmail.com</a></div></li>
+              <li><span class="icon-box sm"><i class="bi bi-geo-alt"></i></span><div><small>Location</small><span>Wayanad, Kerala, India.</span></div></li>
+              <li><span class="icon-box sm"><i class="bi bi-linkedin"></i></span><div><small>LinkedIn</small><a href="https://linkedin.com/in/muhammad-farhan-69603a300" target="_blank" rel="noopener noreferrer">My LinkedIn profile</a></div></li>
+            </ul>
+          </div>
+          <div class="col-lg-7 reveal">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6"><label for="cName" class="form-label">Full Name</label><input type="text" class="form-control" id="cName" name="name" required minlength="2" autocomplete="name"><div class="invalid-feedback">Please enter your full name.</div></div>
+                <div class="col-md-6"><label for="cEmail" class="form-label">Email Address</label><input type="email" class="form-control" id="cEmail" name="email" required autocomplete="email"><div class="invalid-feedback">Please enter a valid email address.</div></div>
+                <div class="col-md-6"><label for="cPhone" class="form-label">Phone Number</label><input type="tel" class="form-control" id="cPhone" name="phone" pattern="[0-9+()\-\s]{7,20}" autocomplete="tel"><div class="invalid-feedback">Please enter a valid phone number.</div></div>
+                <div class="col-md-6"><label for="cSubject" class="form-label">Subject</label><input type="text" class="form-control" id="cSubject" name="subject" required minlength="3"><div class="invalid-feedback">Please enter a subject.</div></div>
+                <div class="col-12"><label for="cMessage" class="form-label">Message</label><textarea class="form-control" id="cMessage" name="message" rows="5" required minlength="10"></textarea><div class="invalid-feedback">Please write at least 10 characters.</div></div>
+                <div class="col-12"><button type="submit" class="btn btn-accent btn-lg w-100">Send Message <i class="bi bi-send"></i></button></div>
+                <div class="col-12"><div id="formAlert" role="alert" class="d-none"></div></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 12. FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4 pb-4">
+        <div class="col-lg-5">
+          <a class="logo d-inline-block mb-3" href="#home">FARHAN<span>.</span></a>
+          <p class="text-muted-c mb-0" style="max-width:380px">Full Stack Web Developer building scalable applications with Laravel, PHP, WordPress and modern frontend technologies.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#experience">Experience</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4>&nbsp;</h4>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h4>Connect</h4>
+          <div class="d-flex gap-2">
+            <a class="social" href="https://linkedin.com/in/muhammad-farhan-69603a300" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a class="social" href="mailto:mohdfarhan170820054@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            <a class="social" href="tel:+916282913275" aria-label="Phone"><i class="bi bi-telephone"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Muhammad Farhan. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
